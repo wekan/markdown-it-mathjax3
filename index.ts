@@ -214,7 +214,7 @@ function plugin(md: MarkdownIt, options: any) {
   const documentOptions = {
     InputJax: new TeX({ packages: AllPackages,  ...options?.tex }),
     OutputJax: options?.loader?.load?.includes('output/chtml')
-                ? new CHTML({ fontCache: 'none',  ...options?.chtml })
+                ? new CHTML(options?.chtml)
                 : new SVG({ fontCache: 'none',  ...options?.svg })
   }
   const convertOptions = {
