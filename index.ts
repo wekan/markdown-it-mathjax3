@@ -229,10 +229,10 @@ function plugin(md: MarkdownIt, options: any) {
     convertOptions.display = false;
     return renderMath(tokens[idx].content, documentOptions, convertOptions)
   };
-  md.renderer.rules.math_block = function (tokens: Token[], idx: number) {
-    convertOptions.display = true;
-    return renderMath(tokens[idx].content, documentOptions, convertOptions)
-  };
+  //md.renderer.rules.math_block = function (tokens: Token[], idx: number) {
+  //  convertOptions.display = true;
+  //  return renderMath(tokens[idx].content, documentOptions, convertOptions)
+  //};
 };
 
 plugin.default = plugin
