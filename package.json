@@ -1,11 +1,11 @@
 {
-  "name": "markdown-it-mathjax3",
-  "version": "4.3.1",
+  "name": "@wekanteam/markdown-it-mathjax3",
+  "version": "4.3.3",
   "description": "Fast math support for markdown-it with MathJax",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:nzt/markdown-it-mathjax3.git"
+    "url": "git+ssh://git@github.com:wekan/markdown-it-mathjax3.git"
   },
   "keywords": [
     "markdown",
@@ -37,6 +37,7 @@
   "files": [
     "LICENSE",
     "README.md",
+    "CHANGELOG.md",
     "index.js",
     "index.d.ts",
     "package.json"
